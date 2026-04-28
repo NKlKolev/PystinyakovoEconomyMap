@@ -1,0 +1,61 @@
+[
+  {
+    "title": "",
+    "target_region": "Банкя",
+    "indicator": "urbanization",
+    "indicator_label": "Урбанизация",
+    "old_value": 55,
+    "change_value": 5,
+    "new_value": 60,
+    "cost_millions": 100
+  },
+  {
+    "title": "Тестово бюджетно решение",
+    "target_region": "Банкя",
+    "indicator": "infrastructure",
+    "indicator_label": "Инфраструктура",
+    "old_value": 53,
+    "change_value": 1,
+    "new_value": 54,
+    "cost_millions": 100
+  },
+  {
+    "title": "Тестово бюджетно решение",
+    "target_region": "Банкя",
+    "indicator": "infrastructure",
+    "indicator_label": "Инфраструктура",
+    "old_value": 54,
+    "change_value": 1,
+    "new_value": 55,
+    "cost_millions": 100
+  },
+  {
+    "title": "Тестово бюджетно решение",
+    "target_region": "Банкя",
+    "indicator": "infrastructure",
+    "indicator_label": "Инфраструктура",
+    "old_value": 55,
+    "change_value": 1,
+    "new_value": 56,
+    "cost_millions": 100
+  },
+  {
+    "title": "Извънреден дивидент от държавни предприятия",
+    "type": "fiscal_action",
+    "action_key": "state_enterprise_dividend",
+    "amount_millions": 100,
+    "note": "Държавните предприятия внесоха извънреден дивидент от 100 млн."
+  },
+  {
+    "title": "",
+    "target_region": "Столична Община",
+    "indicator": "economy",
+    "indicator_label": "Икономика",
+    "old_value": 80,
+    "change_value": 0,
+    "new_value": 80,
+    "cost_millions": 3000,
+    "funding_source": "Бюджет",
+    "fiscal_effect_note": "Свободен фискален ресурс: -3000 млн."
+  }
+]

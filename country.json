@@ -1,0 +1,18 @@
+{
+  "year": 2026,
+  "quarter": 1,
+  "gdp": 30000,
+  "treasury_balance": 1000,
+  "annual_revenue": 9815,
+  "annual_spending": 10300,
+  "deficit": 485,
+  "public_debt": 18500,
+  "debt_to_gdp": 61.7,
+  "inflation": 8.5,
+  "tax_burden": 36,
+  "interest_rate": 4.2,
+  "emergency_reserve": 450,
+  "political_capital": 65,
+  "national_stability": 55,
+  "government_legitimacy": 50
+}
