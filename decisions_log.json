@@ -57,5 +57,110 @@
     "cost_millions": 3000,
     "funding_source": "Бюджет",
     "fiscal_effect_note": "Свободен фискален ресурс: -3000 млн."
+  },
+  {
+    "title": "Програма за заетост",
+    "law_id": "PU-2026/023",
+    "type": "policy_template",
+    "template_key": "employment_program",
+    "scope": "Една област",
+    "target_regions": [
+      "Банкя"
+    ],
+    "cost_millions": 400,
+    "funding_source": "Бюджет",
+    "fiscal_effect_note": "Свободен фискален ресурс: -400 млн.",
+    "applied_effects": {
+      "Банкя": {
+        "unemployment": {
+          "old_value": 22,
+          "change": -5,
+          "new_value": 17
+        },
+        "economy": {
+          "old_value": 55,
+          "change": 2,
+          "new_value": 57
+        },
+        "public_services": {
+          "old_value": 50,
+          "change": 1,
+          "new_value": 51
+        },
+        "unrest": {
+          "old_value": 45,
+          "change": -3,
+          "new_value": 42
+        },
+        "regime_trust": {
+          "old_value": 10,
+          "change": 3,
+          "new_value": 13
+        }
+      }
+    }
+  },
+  {
+    "title": "Индустриална субсидия",
+    "law_id": "PU-2026/024",
+    "type": "policy_template",
+    "template_key": "industrial_subsidy",
+    "scope": "Една област",
+    "target_regions": [
+      "Перник"
+    ],
+    "cost_millions": 750,
+    "funding_source": "Дълг",
+    "fiscal_effect_note": "Държавен дълг: +750 млн.",
+    "applied_effects": {
+      "Перник": {
+        "industrial_output": {
+          "old_value": 59,
+          "change": 7,
+          "new_value": 66
+        },
+        "economy": {
+          "old_value": 53,
+          "change": 3,
+          "new_value": 56
+        },
+        "unemployment": {
+          "old_value": 17,
+          "change": -2,
+          "new_value": 15
+        },
+        "corruption": {
+          "old_value": 47,
+          "change": 2,
+          "new_value": 49
+        },
+        "patronage": {
+          "old_value": 38,
+          "change": 2,
+          "new_value": 40
+        },
+        "regime_trust": {
+          "old_value": 48,
+          "change": 2,
+          "new_value": 50
+        }
+      }
+    }
+  },
+  {
+    "title": "Данъчно увеличение",
+    "law_id": "PU-2026/025",
+    "type": "fiscal_action",
+    "action_key": "tax_increase",
+    "amount_millions": 220,
+    "note": "Данъците бяха увеличени. Свободният фискален ресурс се повиши с 220 млн."
+  },
+  {
+    "title": "Прехвърляне от аварийния резерв",
+    "law_id": "TEST",
+    "type": "fiscal_action",
+    "action_key": "emergency_transfer",
+    "amount_millions": 100,
+    "note": "От аварийния резерв бяха прехвърлени 100 млн. към свободния фискален ресурс."
   }
 ]
